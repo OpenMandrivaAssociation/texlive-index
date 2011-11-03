@@ -1,3 +1,9 @@
+# revision 24099
+# category Package
+# catalog-ctan /macros/latex/contrib/index
+# catalog-date 2008-04-20 19:53:04 +0200
+# catalog-license other-free
+# catalog-version 4.1beta
 Name:		texlive-index
 Version:	4.1beta
 Release:	1
@@ -59,6 +65,7 @@ well as creating an index entry for it.
 #- source
 %doc %{_texmfdistdir}/source/latex/index/index.dtx
 %doc %{_texmfdistdir}/source/latex/index/index.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -69,3 +76,5 @@ well as creating an index entry for it.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
