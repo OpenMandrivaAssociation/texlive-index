@@ -6,7 +6,7 @@
 # catalog-version 4.1beta
 Name:		texlive-index
 Version:	4.1beta
-Release:	7
+Release:	8
 Summary:	Extended index for LaTeX including multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/index
