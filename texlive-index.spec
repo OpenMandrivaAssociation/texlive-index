@@ -1,6 +1,6 @@
 Name:		texlive-index
 Version:	24099
-Release:	1
+Release:	2
 Summary:	Extended index for LaTeX including multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/index
