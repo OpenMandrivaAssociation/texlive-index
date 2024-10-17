@@ -3,7 +3,7 @@ Version:	24099
 Release:	2
 Summary:	Extended index for LaTeX including multiple indexes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/index
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/index
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/index.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/index.doc.r%{version}.tar.xz
